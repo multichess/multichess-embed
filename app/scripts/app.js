@@ -26,6 +26,9 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .when('/install', {
+        templateUrl: 'views/install.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
